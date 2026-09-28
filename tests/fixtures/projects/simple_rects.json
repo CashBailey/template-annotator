@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "image": {
+    "path": "form_800x600.png",
+    "width": 800,
+    "height": 600
+  },
+  "shapes": [
+    {
+      "id": 1,
+      "name": "header",
+      "kind": "rect",
+      "bbox": [
+        80.0,
+        40.0,
+        300.0,
+        80.0
+      ],
+      "page": 0
+    },
+    {
+      "id": 2,
+      "name": "field_a",
+      "kind": "rect",
+      "bbox": [
+        80.0,
+        460.0,
+        400.0,
+        500.0
+      ],
+      "page": 0
+    },
+    {
+      "id": 3,
+      "name": "field_b",
+      "kind": "rect",
+      "bbox": [
+        420.0,
+        460.0,
+        700.0,
+        500.0
+      ],
+      "page": 0
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "image": {
+    "path": "sample_form.pdf",
+    "width": 800,
+    "height": 600
+  },
+  "shapes": [
+    {
+      "id": 1,
+      "name": "p0_title",
+      "kind": "rect",
+      "bbox": [
+        60.0,
+        50.0,
+        400.0,
+        90.0
+      ],
+      "page": 0
+    },
+    {
+      "id": 2,
+      "name": "p0_field",
+      "kind": "rect",
+      "bbox": [
+        60.0,
+        300.0,
+        400.0,
+        340.0
+      ],
+      "page": 0
+    },
+    {
+      "id": 3,
+      "name": "p1_header",
+      "kind": "rect",
+      "bbox": [
+        60.0,
+        100.0,
+        740.0,
+        144.0
+      ],
+      "page": 1
+    },
+    {
+      "id": 4,
+      "name": "p1_cell",
+      "kind": "rect",
+      "bbox": [
+        60.0,
+        200.0,
+        300.0,
+        240.0
+      ],
+      "page": 1
+    },
+    {
+      "id": 5,
+      "name": "p2_box",
+      "kind": "rect",
+      "bbox": [
+        200.0,
+        180.0,
+        600.0,
+        420.0
+      ],
+      "page": 2
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+# Runtime dependencies for the Template Annotator.
+#
+# pyproject.toml is the single source of truth; this file just installs the
+# project with the optional extras most users want (PDF support, plus the
+# marker/barcode detection backends). pyzbar additionally needs the system
+# library libzbar0 (e.g. `sudo apt install libzbar0`).
+#
+#     pip install -r requirements.txt
+
+-e .[pdf,markers]

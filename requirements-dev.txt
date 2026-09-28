@@ -1,0 +1,7 @@
+# Development and testing dependencies for the Template Annotator
+# Install with: pip install -r requirements-dev.txt
+
+-r requirements.txt
+
+# Test framework and plugins
+-e .[test]
